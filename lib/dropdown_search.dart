@@ -280,7 +280,6 @@ class DropdownSearchState<T> extends State<DropdownSearch<T>> {
         return IgnorePointer(
           ignoring: !widget.enabled,
           child: InkWell(
-            onTap: () => _selectSearchMode(),
             child: _formField(),
           ),
         );
